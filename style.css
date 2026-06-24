@@ -160,3 +160,20 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.header-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #4d63ff;
+    padding: 20px;
+}
+
+.banner-image {
+    width: 450px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
