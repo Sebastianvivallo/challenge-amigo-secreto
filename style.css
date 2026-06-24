@@ -32,11 +32,14 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    gap: 20px;
+    background-color: var(--color-primary);
+    padding: 20px;
+    height: 250px;
+    flex: none;
 }
 
 /* Sección de entrada */
@@ -161,19 +164,12 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-.header-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background: #4d63ff;
-    padding: 20px;
-}
 
 .banner-image {
-    width: 450px;
-    height: 220px;
+    width: 500px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
+    display: block;
 }
