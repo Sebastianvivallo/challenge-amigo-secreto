@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-primary: #1F2D6B;
+    --color-secondary: #F5E9D3;
+    --color-tertiary: #D4B06A;
+    --color-button: #C97A3D;
+    --color-button-hover: #B66A30;
+    --color-text: #2B2B2B;
     --color-white: #FFFFFF;
 }
 
@@ -61,7 +61,7 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: #F5E9D3;
 }
 
 .section-title {
@@ -119,13 +119,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: #D4B06A;
+    color: #1F2D6B;
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #C7A15A;
 }
 
 /* Listas */
@@ -152,7 +152,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    background-color: #C97A3D;
     font-size: 16px;
 }
 
@@ -161,7 +161,7 @@ ul {
 }
 
 .button-draw:hover {
-    background-color: var(--color-button-hover);
+    background-color: #B66A30;
 }
 
 
@@ -170,6 +170,8 @@ ul {
     height: 200px;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    border-radius: 15px;
     display: block;
+    border: 3px solid #D4B06A;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
